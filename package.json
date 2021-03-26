@@ -1,0 +1,27 @@
+{
+  "name": "crud_poc",
+  "version": "1.0.0",
+  "description": "CRUD REST API using Nodejs | Express | MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit-khokle/CRUD_PoC.git"
+  },
+  "author": "Rohit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit-khokle/CRUD_PoC/issues"
+  },
+  "homepage": "https://github.com/rohit-khokle/CRUD_PoC#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
